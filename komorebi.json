@@ -96,20 +96,58 @@
         },
         {
           "name": "󰍥",
-          "layout": "BSP"
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "id": "Discord - ",
+              "kind": "Title",
+              "matching_strategy": "StartsWith"
+            },
+            {
+              "id": "WhatsApp Web",
+              "kind": "Title",
+              "matching_strategy": "Equals"
+            }
+          ]
         },
         {
           "name": "󰎇",
-          "layout": "BSP"
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "id": "Spotify.exe",
+              "kind": "Exe",
+              "matching_strategy": "Equals"
+            }
+          ],
+          "initial_workspace_rules": [
+            {
+              "id": "Spotify",
+              "kind": "Exe",
+              "matching_strategy": "Equals"
+            }
+          ]
         },
         {
           "name": "󰄴",
-          "layout": "BSP"
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "id": "TickTick - ",
+              "kind": "Title",
+              "matching_strategy": "StartsWith"
+            }
+          ]
         }
       ]
     }
   ],
   "floating_applications": [
+    {
+      "id": "WhatsApp Web",
+      "kind": "Title",
+      "matching_strategy": "Equals"
+    },
     {
       "kind": "Title",
       "id": "yazi",
@@ -141,8 +179,8 @@
       "matching_strategy": "EndsWith"
     },
     {
-      "kind": "Title",
-      "id": "- File Explorer",
+      "kind": "Exe",
+      "id": "explorer.exe",
       "matching_strategy": "EndsWith"
     }
   ]
