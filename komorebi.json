@@ -1,0 +1,150 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.40/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 1,
+  "default_container_padding": -1,
+  "resize_delta": 75,
+  "border": true,
+  "border_width": 8,
+  "border_offset": -1,
+  "stackbar": {
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300,
+      "focused_text": "#00a542",
+      "unfocused_text": "#b3b3b3",
+      "background": "#141414"
+    }
+  },
+  "border_colours": {
+    "single": "#42a5f5",
+    "floating": "#42a5f5",
+    "stack": "#00a542",
+    "monocle": "#000000",
+    "unfocused": "#000000"
+  },
+  "theme": {
+    "palette": "Base16",
+    "name": "Ashes",
+    "unfocused_border": "Base00",
+    "bar_accent": "Base0D"
+  },
+  "animation": {
+    "enabled": true,
+    "duration": 75,
+    "style": "EaseInOutSine",
+    "fps": 120
+  },
+  "transparency": false,
+  "window_hiding_behaviour": "Cloak",
+  "mouse_follows_focus": false,
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "",
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 2,
+              "center_focused_column": true
+            }
+          }
+        },
+        {
+          "name": "1",
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 2,
+              "center_focused_column": true
+            }
+          }
+        },
+        {
+          "name": "2",
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 2,
+              "center_focused_column": true
+            }
+          }
+        },
+        {
+          "name": "3",
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 2,
+              "center_focused_column": true
+            }
+          }
+        },
+        {
+          "name": "4",
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 2,
+              "center_focused_column": true
+            }
+          }
+        },
+        {
+          "name": "5",
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 2,
+              "center_focused_column": true
+            }
+          }
+        },
+        {
+          "name": "󰄴",
+          "layout": "BSP"
+        }
+      ]
+    }
+  ],
+  "floating_applications": [
+    {
+      "kind": "Title",
+      "id": "yazi",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "btop",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "btop4win++",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "Windows Terminal",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "_crx_nngceckbapebfimnlniiiahkandclblb",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "nvim.exe",
+      "matching_strategy": "EndsWith"
+    },
+    {
+      "kind": "Title",
+      "id": "- File Explorer",
+      "matching_strategy": "EndsWith"
+    }
+  ]
+}
