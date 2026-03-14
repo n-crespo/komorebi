@@ -33,7 +33,7 @@
     }
   },
   "animation": {
-    "enabled": true,
+    "enabled": false,
     "duration": 75,
     "style": "EaseInOutSine",
     "fps": 120
