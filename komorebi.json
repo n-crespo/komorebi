@@ -91,14 +91,12 @@
           }
         },
         {
-          "name": "5",
-          "layout": "Scrolling",
-          "layout_options": {
-            "scrolling": {
-              "columns": 2,
-              "center_focused_column": true
-            }
-          }
+          "name": "󰍥",
+          "layout": "BSP"
+        },
+        {
+          "name": "󰎇",
+          "layout": "BSP"
         },
         {
           "name": "󰄴",
