@@ -6,8 +6,18 @@
   "default_container_padding": -1,
   "resize_delta": 75,
   "border": true,
-  "border_width": 8,
+  "border_implementation": "Komorebi",
+  "border_style": "System",
+  "border_width": 5,
   "border_offset": -1,
+  "border_colours": {
+    "single": "#5F5F87",
+    "floating": "#5F5F87",
+    "stack": "#00a542",
+    "monocle": "#000000",
+    "unfocused": "#000000",
+    "unfocused_locked": "#000000"
+  },
   "stackbar": {
     "height": 40,
     "mode": "OnStack",
@@ -17,19 +27,6 @@
       "unfocused_text": "#b3b3b3",
       "background": "#141414"
     }
-  },
-  "border_colours": {
-    "single": "#42a5f5",
-    "floating": "#42a5f5",
-    "stack": "#00a542",
-    "monocle": "#000000",
-    "unfocused": "#000000"
-  },
-  "theme": {
-    "palette": "Base16",
-    "name": "Ashes",
-    "unfocused_border": "Base00",
-    "bar_accent": "Base0D"
   },
   "animation": {
     "enabled": true,
